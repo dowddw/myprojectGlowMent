@@ -1,4 +1,13 @@
 <html>
   <h1>Welcome to GlowMent!</h1>
   <h3>We offer natural lip balms for soft ,hydrated lips</h3>
+  <h4>You can talk to chabot</h4>
 </html>
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "8a8fe2cd-efa1-435c-b7bb-d95b983aa1d8",
+        apiHost: "https://cyp2323-flowise-1.hf.space",
+    })
+</script>
